@@ -4,10 +4,11 @@ Authors: Matthew Dargan, Daniel Stutz
 
 import cozmo
 from cozmo.util import degrees
-from cozmo_interface import *
 from colors import Colors
+from xbox_controller import *
 
-async def cozmo_program(robot: cozmo.robot.Robot):
+
+def cozmo_program(robot: cozmo.robot.Robot):
     """
     TODO: comment main function
     """
